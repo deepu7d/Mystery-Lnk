@@ -32,7 +32,7 @@ export default function Home() {
                     }}
                     viewOptions={{ margin: "0px 0px -200px 0px" }}
                     transition={{ duration: 0.3, ease: "easeInOut" }}
-                    className="grid lg:grid-cols-12 lg:gap-8 items-center w-[80%] h-[80vh] lg:h-[70vh] justify-center"
+                    className="grid lg:grid-cols-12 lg:gap-8 items-center w-[80%] min-h-[80vh] lg:min-h-[70vh] justify-center"
                 >
                     <div className="col-span-6 text-center">
                         <p className="text-5xl font-extrabold text-center">
@@ -73,7 +73,7 @@ export default function Home() {
                     }}
                     viewOptions={{ margin: "0px 0px -200px 0px" }}
                     transition={{ duration: 0.3, ease: "easeInOut" }}
-                    className="grid lg:grid-cols-12 lg:gap-8 items-center w-[80%] h-[50vh] lg:h-[60vh] justify-center"
+                    className="grid lg:grid-cols-12 lg:gap-8 items-center w-[80%] min-h-[70vh] lg:min-h-[60vh] justify-center"
                 >
                     <div className="col-span-6 border-2 border-gray-200 w-fit rounded-2xl  shadow-lg">
                         <Image
